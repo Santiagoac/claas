@@ -10,7 +10,7 @@ import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 
 const features = [
   {
-    name: 'Evaluación',
+    name: 'Evaluación de clientes',
     summary: 'Análisis profundo de riesgo para nuevos solicitantes de crédito',
     description:
       'Recopila y analiza datos del solicitante para determinar su riesgo crediticio, optimizando decisiones de aprobación de líneas de crédito.',
@@ -44,11 +44,11 @@ const features = [
     },
   },
   {
-    name: 'Reporteo',
+    name: 'Administración de créditos',
     summary:
       'Administra el comportamiento de pago periodo a periodo',
     description:
-      'Reporta de manera eficiente y efectiva el comportamiento de pago de sus clientes a Buró de Crédito.',
+      'Administra de manera eficiente y efectiva el cíclo de vida de los creditos de tus clientes. Recepcion de pagos identificados por STP, Recordatorios, Cobro de intereses por atraso, reporte a Buró de Crédito',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -72,7 +72,7 @@ const features = [
     },
   },
   {
-    name: 'Monitorea',
+    name: 'Monitoreo de portafolio',
     summary:
       'Prevee impagos al siempre estar informado',
     description:

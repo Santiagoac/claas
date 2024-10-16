@@ -11,21 +11,21 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
-    title: 'Screening',
+    title: 'Pago de servicios recurrentes',
     description:
-      "Conoce y évalua a tus clientes en segundos",
+      "Cambia la iguala de tu servicio por una linea de crédito controlada para tus clientes.",
     image: screenshotPayroll,
   },
   {
-    title: 'Payment Report',
+    title: 'Crédito a distribuidores',
     description:
-      "Reporta el comportamiento de pago cada periodo",
+      "Consesiona productos con la seguridad de una línea de crédito.",
     image: screenshotVatReturns,
   },
   {
-    title: 'Monitoring',
+    title: 'Parcializa compras de tus clientes en crédito simple',
     description:
-      'Monitorea y prevee mal comportamiento de pago',
+      'Ofrece pagos a parcialidades, respaldado por un contrato de crédito.',
     image: screenshotReporting,
   },
 ]
@@ -68,7 +68,7 @@ export function PrimaryFeatures() {
           Simplifica el riesgo de tu negocio
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Todo el proceso de administración de pagos de tus clientes de punta a punta
+            Todo el proceso de administración de crédito de tus clientes de punta a punta
           </p>
         </div>
         <Tab.Group

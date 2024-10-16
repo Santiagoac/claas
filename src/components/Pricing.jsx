@@ -113,24 +113,25 @@ export function Pricing() {
               <SwirlyDoodle className="absolute left-0 top-1/2 h-[1em] w-full fill-blue-400" />
               <span className="relative">Precios</span>
             </span>{' '}
-            transparentes
+            alineados a tu negocio
           </h2>
           <p className="mt-4 text-lg text-slate-400">
-            No importa cual sea tu negocio, podemos ayudarte.
+            Más eficiente que un equipo de crédito interno
           </p>
         </div>
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
             name="Screening"
             pre="Desde "
-            price=" US$2"
-            description="Evalúa el riesgo de tus clientes de punta a punta"
+            price=" US$25"
+            description="Evaluamos el riesgo de tus clientes de punta a punta"
             href="/register"
             features={[
               'Reporte de crédito',
               'Alta de documentos',
               'Validación biometrica y PLD',
-              'Firma de contrato'
+              'Firma de contrato',
+              'Analisis de ingresos'
             ]}
           />
           <Plan
@@ -149,7 +150,7 @@ export function Pricing() {
           />
           <Plan
             name="Monitoring"
-            price="US$1 "
+            price="US$5 "
             post="/ mes"
             description="Cuida tu portafolio en todo momento"
             href="/register"

@@ -24,9 +24,9 @@ export function CallToAction() {
             ¿Cómo funcionaría en tu negocio?
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
-            A nadie le gusta que no le paguen, queremos ayudarte a que tus clientes tengan un mayor compromiso con tu negocio.
+            Queremos ayudarte a tener mejores relaciones de confianza con tus clientes.
           </p>
-          <Button href="https://calendar.app.google/SbnVMnVvqv8Kp1hJ9" color="white" className="mt-10">
+          <Button href="https://calendar.app.google/FbmW7JQbkYsB86Mm8" color="white" className="mt-10">
             Agendemos una llamada
           </Button>
         </div>

@@ -21,10 +21,10 @@ export function CallToAction() {
       <Container className="relative">
         <div className="mx-auto max-w-lg text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-            ¿Cómo funcionaría en tu negocio?
+            ¿Te interesa CLaaS?
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
-            Queremos ayudarte a tener mejores relaciones de confianza con tus clientes.
+            Conoce como podría funcionar con tu negocio.
           </p>
           <Button href="https://calendar.app.google/FbmW7JQbkYsB86Mm8" color="white" className="mt-10">
             Agendemos una llamada

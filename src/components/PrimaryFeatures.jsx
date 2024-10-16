@@ -5,15 +5,15 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
-import screenshotPayroll from '@/images/screenshots/payroll.png'
-import screenshotReporting from '@/images/screenshots/reporting.png'
-import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
+import screenshotPayroll from '@/images/screenshots/services.png'
+import screenshotReporting from '@/images/screenshots/distribuitors.png'
+import screenshotVatReturns from '@/images/screenshots/bnpl.png'
 
 const features = [
   {
     title: 'Pago de servicios recurrentes',
     description:
-      "Cambia la iguala de tu servicio por una linea de crédito controlada para tus clientes.",
+      "Cambia tu factua mensual por una linea de crédito para tus clientes.",
     image: screenshotPayroll,
   },
   {
@@ -65,10 +65,10 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-          Simplifica el riesgo de tu negocio
+          Líneas de crédito, tu nuevo contrato
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Todo el proceso de administración de crédito de tus clientes de punta a punta
+            Estructura y administra créditos para tu negocio
           </p>
         </div>
         <Tab.Group

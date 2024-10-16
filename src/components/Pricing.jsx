@@ -115,7 +115,7 @@ export function Pricing() {
             </span>{' '}
             alineados a tu negocio
           </h2>
-          <p className="mt-4 text-lg text-slate-400">
+          <p className="mt-4 text-lg text-slate-400 hidden">
             Más eficiente que un equipo de crédito interno
           </p>
         </div>
@@ -127,11 +127,10 @@ export function Pricing() {
             description="Evaluamos el riesgo de tus clientes de punta a punta"
             href="/register"
             features={[
-              'Reporte de crédito',
+              'Validación de identidad',
+              'Analisis de crediticio',
               'Alta de documentos',
-              'Validación biometrica y PLD',
-              'Firma de contrato',
-              'Analisis de ingresos'
+              'Firma de contrato'
             ]}
           />
           <Plan
@@ -142,14 +141,16 @@ export function Pricing() {
             description="Crea y gestiona líneas de crédito de tu servicio"
             href="/register"
             features={[
-              'Administra saldos',
-              'Conecta tus pagos',
-              'Reportes de portafolio',
-              'Reporteo a Buró de Crédito'
+              'Estructura créditos',
+              'Recibe pagos por STP',
+              'Calcula y cobra intereses',
+              'Reporta a Buró de Crédito'
+              
             ]}
           />
           <Plan
             name="Monitoring"
+            pre="Desde "
             price="US$5 "
             post="/ mes"
             description="Cuida tu portafolio en todo momento"
@@ -157,7 +158,7 @@ export function Pricing() {
             features={[
               'Alerta de impagos',
               'Riesgos operativos',
-              'Información de juicios',
+              'Alertas de juicios',
               'Alertas de fraude'
             ]}
           />

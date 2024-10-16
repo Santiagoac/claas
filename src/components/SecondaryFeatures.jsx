@@ -48,7 +48,7 @@ const features = [
     summary:
       'Administra el comportamiento de pago periodo a periodo',
     description:
-      'Administra de manera eficiente y efectiva el cíclo de vida de los creditos de tus clientes. Recepcion de pagos identificados por STP, Recordatorios, Cobro de intereses por atraso, reporte a Buró de Crédito',
+      'Gestionamos el cíclo de vida de los créditos de tus clientes. Recepción de pagos por STP, cobro de intereses por atraso, reporte de impago a Buró de Crédito y más.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -216,7 +216,7 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Simplifica el riesgo de tu negocio
+            ¿Cómo funciona?
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700 hidden">
             Comienza a tener el control 

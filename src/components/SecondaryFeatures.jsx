@@ -46,9 +46,9 @@ const features = [
   {
     name: 'Administración de créditos',
     summary:
-      'Administra el comportamiento de pago periodo a periodo',
+      'Gestión del cíclo de vida de los créditos de tus clientes.',
     description:
-      'Gestionamos el cíclo de vida de los créditos de tus clientes. Recepción de pagos por STP, cobro de intereses por atraso, reporte de impago a Buró de Crédito y más.',
+      'Administra fechas de pago, cálculo de intereses ordinarios y moratorios, reporte a Sociedades de Información Crediticia',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -74,9 +74,9 @@ const features = [
   {
     name: 'Monitoreo de portafolio',
     summary:
-      'Prevee impagos al siempre estar informado',
+      'Prevención de impagos con alertas de riesgo continuas',
     description:
-      'Alertas de riesgo en tiempo real y seguimiento continuo del comportamiento de los clientes para prevenir problemas de incumplimiento y gestionar el riesgo.',
+      'Seguimiento continuo y alertas de riesgo del comportamiento de los clientes para prevenir problemas de incumplimiento y potencial riesgo.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (

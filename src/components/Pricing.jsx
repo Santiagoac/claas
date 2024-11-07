@@ -123,7 +123,7 @@ export function Pricing() {
           <Plan
             name="Screening"
             pre="Desde "
-            price=" US$25"
+            price=" US$50"
             description="Evaluamos el riesgo de tus clientes de punta a punta"
             href="/register"
             features={[
@@ -151,7 +151,7 @@ export function Pricing() {
           <Plan
             name="Monitoring"
             pre="Desde "
-            price="US$5 "
+            price="US$15 "
             post="/ mes"
             description="Cuida tu portafolio en todo momento"
             href="/register"
